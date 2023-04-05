@@ -118,11 +118,15 @@ class Solver {
     self.kNodes.removeAll()
     self.kObjects.removeLast()
 
+    print("\nNode Hasil : ")
+    
     self.solutionNode?.desc()
     self.solutionNode?.pathsTaken.sort(by : {
       $0.num < $1.num
     })
-    print("Solusi Optimal : ")
+
+    print("\nSolusi Optimal : ")
+    
     print(self.solutionNode!.pathsTaken.compactMap({
       $0.taken
     }))
