@@ -39,9 +39,9 @@ let _n = Int(readLine()!)!
 print("Masukkan object knapsack : ")
 for i in 1..._n {
   print("\tObject knapsack", i)
-  print("\t\tweight : ")
+  print("\t\tweight : ", terminator: "")
   let _w = Int(readLine()!)!
-  print("\t\tprofit : ")
+  print("\t\tprofit : ", terminator: "")
   let _p = Int(readLine()!)!
   knapsackSolver.addObject(obj : KnapsackObject(w : _w, p : _p))
 }

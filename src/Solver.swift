@@ -126,7 +126,7 @@ class Solver {
     })
 
     print("\nSolusi Optimal : ")
-    
+    print("X = ", terminator: "")
     print(self.solutionNode!.pathsTaken.compactMap({
       $0.taken
     }))
