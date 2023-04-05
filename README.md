@@ -13,6 +13,10 @@
     ```shell
     > bin/main
    ```
+   
+## Menggunakan repl.it
+Jika mengalami kendala dalam menjalankan program, jalankan program di replit melalui pranala berikut
+https://replit.com/@fakihap/Latihan213521091
 
 ## Catatan
 1. Pastikan masukan telah benar (baik Kapasitas knapsack maupun Properti objek)
